@@ -23,8 +23,8 @@ const Events: React.FC = () => {
     };
 
     return (
-        <div className="min-w-fit h-auto rounded-tl-3xl overflow-y-scroll border-[#78786a] flex flex-col items-center gap-y-6 border-2 border-r-0 border-b-0 p-6 custom-cursor-default-hover">
-            <div className="font-mono w-full font-medium uppercase text-2xl flex items-center gap-x-4 ">
+        <div className="md:min-w-fit max-w-full h-auto md:rounded-tl-3xl rounded-t-3xl overflow-y-scroll border-[#78786a] flex flex-col items-center gap-y-6 border-2 border-r-0 border-b-0 p-6 custom-cursor-default-hover">
+            <div className="font-mono w-full font-medium uppercase text-2xl flex items-center gap-x-4">
                 {selectedEvent && (
                     <span
                         onClick={() => setSelectedEvent(null)}

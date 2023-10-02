@@ -46,7 +46,7 @@ const MapView: React.FC<MapViewProps> = ({MapLat, MapLong}) => {
         <Map
             mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_TOKEN}
             initialViewState={initialViewStates}
-            style={{width: '100%', height: '100%', borderRadius: '24px', border: "black solid "}}
+            style={{width: '100%', height: '100%'}}
             mapStyle="mapbox://styles/mapbox/streets-v12"
             // mapStyle="mapbox://styles/mapbox/streets-v10"
             // mapStyle="mapbox://styles/aaryathakor/cllj5hwq6019s01qs83846lry"
